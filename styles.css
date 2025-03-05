@@ -1,0 +1,47 @@
+body {
+    background-color: #BDBDBD;
+    margin: 0;
+}
+/*{
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+header {
+    background: white;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+}
+
+.post {
+    margin-top: 40px;
+    margin-bottom: 0;
+    background: white;
+}
+
+.post .navpost div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+.post .navpost div:last-child {
+    display: inline-block;
+    width: 19%;
+    color: grey;
+}
+.post .navpost span {
+    float: right;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.container h1 {
+    text-align: center;
+}
+.post img {
+    width: 100%;
+}
+.post h2, .post p {
+    padding: 10px;
+}
